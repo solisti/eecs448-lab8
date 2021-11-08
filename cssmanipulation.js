@@ -11,9 +11,6 @@ function changeStyle(form) {
 
   var para = document.getElementById('pokemon');
 
-  // para.style.border = "20px solid red";
-  // para.style.backgroundColor = "green";
-
   para.style.border = widtha.value + "px" +  " solid" + " #" + reda.value + greena.value + bluea.value;
   para.style.backgroundColor = "#"+redb.value+greenb.value+blueb.value;
 
